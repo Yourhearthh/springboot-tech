@@ -11,7 +11,7 @@ import java.util.Map;
 
 /**
  * @ClassName:
- * @Description:
+ * @Description: 注入postgres的JdbcTemplate
  * @author: baoguangyu
  * @date: 2020-11-16 13:28
  * @version: 1.0
