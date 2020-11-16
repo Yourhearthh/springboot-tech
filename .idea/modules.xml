@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/springboot-datasource/springboot-datasource.iml" filepath="$PROJECT_DIR$/springboot-datasource/springboot-datasource.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-jdbc/springboot-jdbc.iml" filepath="$PROJECT_DIR$/springboot-jdbc/springboot-jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-jpa-datasource/springboot-jpa-datasource.iml" filepath="$PROJECT_DIR$/springboot-jpa-datasource/springboot-jpa-datasource.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springboot-tech.iml" filepath="$PROJECT_DIR$/.idea/springboot-tech.iml" />
     </modules>
   </component>
