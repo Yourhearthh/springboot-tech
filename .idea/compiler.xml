@@ -7,10 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-actuator" />
-        <module name="springboot-datasource" />
-        <module name="springboot-jpa-datasource" />
-        <module name="springboot-jdbc" />
         <module name="springboot-mybatis-druid" />
+        <module name="springboot-jpa-datasource" />
+        <module name="springboot-datasource" />
+        <module name="springboot-logging" />
+        <module name="springboot-jdbc" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -18,6 +19,7 @@
       <module name="springboot-datasource" target="1.8" />
       <module name="springboot-jdbc" target="1.8" />
       <module name="springboot-jpa-datasource" target="1.8" />
+      <module name="springboot-logging" target="1.8" />
       <module name="springboot-mybatis-druid" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -27,6 +29,7 @@
       <module name="springboot-datasource" options="-parameters" />
       <module name="springboot-jdbc" options="-parameters" />
       <module name="springboot-jpa-datasource" options="-parameters" />
+      <module name="springboot-logging" options="-parameters" />
       <module name="springboot-mybatis-druid" options="-parameters" />
     </option>
   </component>

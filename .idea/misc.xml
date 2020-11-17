@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/springboot-jpa-datasource/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-mybatis-druid/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-actuator/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-logging/pom.xml" />
       </list>
     </option>
   </component>
