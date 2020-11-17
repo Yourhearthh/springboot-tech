@@ -4,5 +4,6 @@
     <file url="file://$PROJECT_DIR$/springboot-datasource/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-jdbc/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-jpa-datasource/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-mybatis-druid/src/main/java" charset="UTF-8" />
   </component>
 </project>

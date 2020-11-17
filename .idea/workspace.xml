@@ -11,20 +11,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60282468-3aef-4876-8f3b-4a4e4d6cd36b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/springboot-jpa-datasource/src/main/java/com/example/book/controller/BookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-jpa-datasource/src/main/java/com/example/book/entity/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-jpa-datasource/src/main/java/com/example/book/repository/BookRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-jpa-datasource/src/main/java/com/example/book/service/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-jpa-datasource/src/main/java/com/example/book/service/impl/BookServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-jpa-datasource/src/main/java/com/example/config/DataSourceConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-jpa-datasource/src/main/java/com/example/config/PrimaryConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-jpa-datasource/src/main/java/com/example/config/SecondaryConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-jpa-datasource/src/main/java/com/example/student/controller/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-jpa-datasource/src/main/java/com/example/student/entity/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-jpa-datasource/src/main/java/com/example/student/repository/StudentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-jpa-datasource/src/main/java/com/example/student/service/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-jpa-datasource/src/main/java/com/example/student/service/impl/StudentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-jpa-datasource/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis-druid/src/main/java/com/example/controller/ArticleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis-druid/src/main/java/com/example/entity/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis-druid/src/main/java/com/example/mapper/ArticleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis-druid/src/main/java/com/example/service/ArticleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis-druid/src/main/java/com/example/service/impl/ArticleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-datasource/target/classes/com/example/config/DataSourceConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-datasource/target/classes/com/example/config/DataSourceConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-datasource/target/test-classes/com/example/SpringbootDatasourceApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-datasource/target/test-classes/com/example/SpringbootDatasourceApplicationTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,12 +49,17 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot-jpa-datasource/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tech-blog/springboot-mybatis" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringbootJpaDatasourceApplication">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkGit\springboot-tech\springboot-jpa-datasource\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringbootMybatisDruidApplication">
     <configuration name="SpringbootDatasourceApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot-datasource" />
       <extension name="coverage">
@@ -72,6 +70,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.example" />
       <option name="MAIN_CLASS_NAME" value="com.example.SpringbootDatasourceApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootMybatisDruidApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-mybatis-druid" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example" />
+      <option name="MAIN_CLASS_NAME" value="com.example.SpringbootMybatisDruidApplicationTests" />
       <option name="METHOD_NAME" value="contextLoads" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -99,8 +113,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringbootMybatisDruidApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-mybatis-druid" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.SpringbootMybatisDruidApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpringbootMybatisDruidApplicationTests.contextLoads" />
         <item itemvalue="JUnit.SpringbootDatasourceApplicationTests.contextLoads" />
       </list>
     </recent_temporary>
@@ -116,7 +138,9 @@
       <option name="presentableId" value="Default" />
       <updated>1605327596977</updated>
       <workItem from="1605327598355" duration="2313000" />
-      <workItem from="1605504067842" duration="9009000" />
+      <workItem from="1605504067842" duration="9904000" />
+      <workItem from="1605519784267" duration="517000" />
+      <workItem from="1605572815845" duration="9547000" />
     </task>
     <servers />
   </component>
@@ -140,69 +164,73 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2360" y="94" key="#Project_Structure/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605329431122" />
-    <state x="2685" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1605516906294">
+    <state x="2685" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1605581178762">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2685" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605516906294" />
-    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1605512963704">
+    <state x="2685" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605581178762" />
+    <state x="2561" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605580906583">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605512963704" />
-    <state width="1877" height="449" key="GridCell.Tab.0.bottom" timestamp="1605517368337">
+    <state x="2561" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605580906583" />
+    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1605579929028">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="449" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605517368337" />
-    <state width="1877" height="449" key="GridCell.Tab.0.center" timestamp="1605517368337">
+    <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605579929028" />
+    <state width="1877" height="354" key="GridCell.Tab.0.bottom" timestamp="1605582278616">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="449" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605517368337" />
-    <state width="1877" height="449" key="GridCell.Tab.0.left" timestamp="1605517368337">
+    <state width="1877" height="354" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605582278616" />
+    <state width="1877" height="354" key="GridCell.Tab.0.center" timestamp="1605582278616">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="449" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605517368337" />
-    <state width="1877" height="449" key="GridCell.Tab.0.right" timestamp="1605517368337">
+    <state width="1877" height="354" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605582278616" />
+    <state width="1877" height="354" key="GridCell.Tab.0.left" timestamp="1605582278616">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="449" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605517368337" />
-    <state width="1877" height="449" key="GridCell.Tab.1.bottom" timestamp="1605517368337">
+    <state width="1877" height="354" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605582278616" />
+    <state width="1877" height="354" key="GridCell.Tab.0.right" timestamp="1605582278616">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="449" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605517368337" />
-    <state width="1877" height="449" key="GridCell.Tab.1.center" timestamp="1605517368337">
+    <state width="1877" height="354" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605582278616" />
+    <state width="1877" height="354" key="GridCell.Tab.1.bottom" timestamp="1605582278617">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="449" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605517368337" />
-    <state width="1877" height="449" key="GridCell.Tab.1.left" timestamp="1605517368337">
+    <state width="1877" height="354" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605582278617" />
+    <state width="1877" height="354" key="GridCell.Tab.1.center" timestamp="1605582278616">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="449" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605517368337" />
-    <state width="1877" height="449" key="GridCell.Tab.1.right" timestamp="1605517368337">
+    <state width="1877" height="354" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605582278616" />
+    <state width="1877" height="354" key="GridCell.Tab.1.left" timestamp="1605582278616">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="449" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605517368337" />
-    <state width="1877" height="533" key="GridCell.Tab.2.bottom" timestamp="1605506730913">
+    <state width="1877" height="354" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605582278616" />
+    <state width="1877" height="354" key="GridCell.Tab.1.right" timestamp="1605582278616">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="533" key="GridCell.Tab.2.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605506730913" />
-    <state width="1877" height="533" key="GridCell.Tab.2.center" timestamp="1605506730913">
+    <state width="1877" height="354" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605582278616" />
+    <state width="1877" height="533" key="GridCell.Tab.2.bottom" timestamp="1605518412047">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="533" key="GridCell.Tab.2.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605506730913" />
-    <state width="1877" height="533" key="GridCell.Tab.2.left" timestamp="1605506730913">
+    <state width="1877" height="533" key="GridCell.Tab.2.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605518412047" />
+    <state width="1877" height="533" key="GridCell.Tab.2.center" timestamp="1605518412047">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="533" key="GridCell.Tab.2.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605506730913" />
-    <state width="1877" height="533" key="GridCell.Tab.2.right" timestamp="1605506730913">
+    <state width="1877" height="533" key="GridCell.Tab.2.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605518412047" />
+    <state width="1877" height="533" key="GridCell.Tab.2.left" timestamp="1605518412047">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="533" key="GridCell.Tab.2.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605506730913" />
+    <state width="1877" height="533" key="GridCell.Tab.2.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605518412047" />
+    <state width="1877" height="533" key="GridCell.Tab.2.right" timestamp="1605518412047">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="533" key="GridCell.Tab.2.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605518412047" />
     <state x="2582" y="223" width="596" height="594" key="find.popup" timestamp="1605504807006">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2582" y="223" width="596" height="594" key="find.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605504807006" />
-    <state x="2254" y="180" key="new project wizard" timestamp="1605515965120">
+    <state x="2254" y="180" key="new project wizard" timestamp="1605519877372">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2254" y="180" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605515965120" />
+    <state x="2254" y="180" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605519877372" />
   </component>
 </project>
