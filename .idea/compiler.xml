@@ -11,10 +11,12 @@
         <module name="springboot-jpa-datasource" />
         <module name="springboot-datasource" />
         <module name="springboot-logging" />
+        <module name="spring-mysql-redis" />
         <module name="springboot-jdbc" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="spring-mysql-redis" target="1.8" />
       <module name="springboot-actuator" target="1.8" />
       <module name="springboot-datasource" target="1.8" />
       <module name="springboot-jdbc" target="1.8" />
@@ -25,6 +27,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-mysql-redis" options="-parameters" />
       <module name="springboot-actuator" options="-parameters" />
       <module name="springboot-datasource" options="-parameters" />
       <module name="springboot-jdbc" options="-parameters" />
