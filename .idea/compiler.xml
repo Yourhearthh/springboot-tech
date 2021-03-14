@@ -13,12 +13,14 @@
         <module name="springboot-logging" />
         <module name="spring-mysql-redis" />
         <module name="springboot-jdbc" />
+        <module name="springboot-http" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring-mysql-redis" target="1.8" />
       <module name="springboot-actuator" target="1.8" />
       <module name="springboot-datasource" target="1.8" />
+      <module name="springboot-http" target="1.8" />
       <module name="springboot-jdbc" target="1.8" />
       <module name="springboot-jpa-datasource" target="1.8" />
       <module name="springboot-logging" target="1.8" />
@@ -30,6 +32,7 @@
       <module name="spring-mysql-redis" options="-parameters" />
       <module name="springboot-actuator" options="-parameters" />
       <module name="springboot-datasource" options="-parameters" />
+      <module name="springboot-http" options="-parameters" />
       <module name="springboot-jdbc" options="-parameters" />
       <module name="springboot-jpa-datasource" options="-parameters" />
       <module name="springboot-logging" options="-parameters" />
